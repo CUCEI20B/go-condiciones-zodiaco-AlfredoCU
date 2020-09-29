@@ -7,13 +7,13 @@ func main() {
 	var (
 		day uint64 = 0
 		month uint64 = 0
-		zodiac string = ""
 	)
 
 	// Input data
 	fmt.Scan(&day)
 	fmt.Scan(&month)
 
+	zodiac := ""
 	// Conditions
 	if  day >= 21 && month == 1 || day <= 18 && month == 2 {
 		zodiac = "acuario"
