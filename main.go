@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	// Declaration of variables
 	var (
-		day uint64 = 0
-		month uint64 = 0
+		day = 0
+		month = 0
 	)
 
 	// Input data
