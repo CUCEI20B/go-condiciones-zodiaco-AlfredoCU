@@ -40,5 +40,5 @@ func main() {
 	}
 
 	// Print result
-	println(zodiac)
+	fmt.Print(zodiac)
 }
