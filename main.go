@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	// Declaration of variables
 	var (
-		day = 0
-		month = 0
-		zodiac = ""
+		day uint64 = 0
+		month uint64 = 0
+		zodiac string = ""
 	)
 
 	// Input data
