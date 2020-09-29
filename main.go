@@ -4,10 +4,9 @@ import "fmt"
 
 func main() {
 	// Declaration of variables
-	var (
-		day int64 = 0
-		month int64 = 0
-	)
+	var day int64
+	var month int64
+	
 
 	// Input data
 	fmt.Scan(&day)
